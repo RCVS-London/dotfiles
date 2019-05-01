@@ -3,11 +3,14 @@
 # Python caching
 __pycache__/
 
-# Mac file info
+# Mac file metadata
 .DS_Store
 
-# React Native build information
-.expo
+# Python Poetry metadata
+*.egg-info/
+
+# React Native build metadata
+.expo/
 
 # Vender lockin editor config
 .vscode/

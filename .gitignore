@@ -3,3 +3,7 @@ node_modules/
 .expo
 coverage
 .vscode/
+css_temp/
+static_generated/
+__pycache__/
+geckodriver.log

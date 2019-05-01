@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/evidence/manage.py",
+            "console": "integratedTerminal",
+            "args": ["runserver", "--noreload", "--nothreading"],
+            "django": true
+        },
+        {
+            "name": "Python: Django Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/evidence/manage.py",
+            "console": "integratedTerminal",
+            "args": ["test", "evidence/"],
+            "django": true
+        },
+        {
+            "name": "Django Migrate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/evidence/manage.py",
+            "console": "integratedTerminal",
+            "args": ["migrate"],
+            "django": true
+        },
+        {
+            "name": "Python: Current File (External Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Python: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

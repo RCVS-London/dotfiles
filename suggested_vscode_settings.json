@@ -1,0 +1,17 @@
+{
+    "cSpell.language": "en-GB",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [88],
+    "editor.wordWrap": "on",
+    "git.enableSmartCommit": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": false,
+    "files.associations": {
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "python.venvPath": "~/virtualenvs/"
+}

@@ -1,0 +1,52 @@
+module.exports = {
+    env: {
+        browser: true,
+        es6: true,
+        node: true,
+    },
+    extends: ["eslint:all", "plugin:react/all"],
+    globals: {
+        Atomics: "readonly",
+        SharedArrayBuffer: "readonly",
+    },
+    parser: "babel-eslint",
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion: 2018,
+        sourceType: "module",
+    },
+    plugins: ["react"],
+    settings: {
+        react: {
+            version: "16.5.0",
+        },
+    },
+    rules: {
+        "arrow-parens": "off",
+        "comma-dangle": "off",
+        "max-len": "off",
+        "multiline-ternary": "off",
+        "no-class-assign": "off",
+        "no-confusing-arrow": "off",
+        "no-extra-parens": "off",
+        "no-ternary": "off",
+        "object-property-newline": "off",
+        "one-var": "off",
+        "padded-blocks": "off",
+        "quote-props": ["error", "consistent-as-needed"],
+        "react/destructuring-assignment": ["error", "never"],
+        "react/forbid-component-props": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-max-props-per-line": "off",
+        "react/jsx-no-literals": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-unescaped-entities": "off",
+        "react/prop-types": "off",
+        "space-before-function-paren": "off",
+        indent: "off",
+        "func-style": "warn",
+        "function-paren-newline": "off",
+    },
+};

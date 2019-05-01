@@ -1,9 +1,28 @@
-.DS_Store
-node_modules/
-.expo
-coverage
-.vscode/
-css_temp/
-static_generated/
+# Generic .gitignore for RCVS projects
+
+# Python caching
 __pycache__/
+
+# Mac file info
+.DS_Store
+
+# React Native build information
+.expo
+
+# Vender lockin editor config
+.vscode/
+
+# Code coverage data from Jest among others
+coverage
+
+# Django SCSS output
+css_temp/
+
+# Selenium testing data
 geckodriver.log
+
+# JavaScript dependencies
+node_modules/
+
+# Django SCSS output
+static_generated/

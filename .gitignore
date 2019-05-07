@@ -29,3 +29,15 @@ node_modules/
 
 # Django SCSS output
 static_generated/
+
+# Pytest code coverage
+.coverage
+
+# Python testing
+.pytest_cache/
+
+# Django testing database
+db.sqlite3
+
+# Python package management
+pip-wheel-metadata

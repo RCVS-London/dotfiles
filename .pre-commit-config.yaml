@@ -30,7 +30,8 @@ repos:
           - id: check-json
           - id: check-merge-conflict
           - id: check-symlinks
+            always_run: true
           - id: check-yaml
           - id: detect-private-key
           - id: pretty-format-json
-            args: [autofix]
+            args: [--autofix, --indent=4]

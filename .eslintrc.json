@@ -18,14 +18,12 @@
         "sourceType": "module"
     },
     "plugins": ["react"],
-    "settings": {
-        "react": {
-            "version": "16.5.0"
-        }
-    },
     "rules": {
         "arrow-parens": "off",
         "comma-dangle": "off",
+        "func-style": "warn",
+        "function-paren-newline": "off",
+        "indent": "off",
         "max-len": "off",
         "multiline-ternary": "off",
         "no-class-assign": "off",
@@ -35,7 +33,7 @@
         "object-property-newline": "off",
         "one-var": "off",
         "padded-blocks": "off",
-        "quote-props": ["error", "consistent-as-needed"],
+        "quote-props": ["consistent-as-needed", "error"],
         "react/destructuring-assignment": ["error", "never"],
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",
@@ -44,9 +42,11 @@
         "react/jsx-one-expression-per-line": "off",
         "react/no-unescaped-entities": "off",
         "react/prop-types": "off",
-        "space-before-function-paren": "off",
-        "indent": "off",
-        "func-style": "warn",
-        "function-paren-newline": "off"
+        "space-before-function-paren": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "16.5.0"
+        }
     }
 }

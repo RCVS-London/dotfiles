@@ -1,29 +1,29 @@
-module.exports = {
-    env: {
-        browser: true,
-        es6: true,
-        node: true,
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
     },
-    extends: ["eslint:all", "plugin:react/all"],
-    globals: {
-        Atomics: "readonly",
-        SharedArrayBuffer: "readonly",
+    "extnds": ["eslint:all", "plugin:react/all"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
     },
-    parser: "babel-eslint",
-    parserOptions: {
-        ecmaFeatures: {
-            jsx: true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
         },
-        ecmaVersion: 2018,
-        sourceType: "module",
+        "ecmaVersion": 2018,
+        "sourceType": "module"
     },
-    plugins: ["react"],
-    settings: {
-        react: {
-            version: "16.5.0",
-        },
+    "plugins": ["react"],
+    "settings": {
+        "react": {
+            "version": "16.5.0"
+        }
     },
-    rules: {
+    "rules": {
         "arrow-parens": "off",
         "comma-dangle": "off",
         "max-len": "off",
@@ -45,8 +45,8 @@ module.exports = {
         "react/no-unescaped-entities": "off",
         "react/prop-types": "off",
         "space-before-function-paren": "off",
-        indent: "off",
+        "indent": "off",
         "func-style": "warn",
-        "function-paren-newline": "off",
-    },
-};
+        "function-paren-newline": "off"
+    }
+}

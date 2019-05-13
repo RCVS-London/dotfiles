@@ -33,7 +33,7 @@
         "object-property-newline": "off",
         "one-var": "off",
         "padded-blocks": "off",
-        "quote-props": ["consistent-as-needed", "error"],
+        "quote-props": ["error", "consistent-as-needed"],
         "react/destructuring-assignment": ["error", "never"],
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",

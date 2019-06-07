@@ -1,0 +1,4 @@
+.expo-shared/
+.expo/
+dotfiles/
+node_modules/

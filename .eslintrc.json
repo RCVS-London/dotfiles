@@ -2,9 +2,10 @@
     "env": {
         "browser": true,
         "es6": true,
+        "jest/globals": true,
         "node": true
     },
-    "extends": ["eslint:all", "plugin:react/all"],
+    "extends": ["eslint:all", "plugin:react/all", "plugin:jest/recommended"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -17,7 +18,7 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["react"],
+    "plugins": ["jest", "react"],
     "rules": {
         "array-element-newline": "off",
         "arrow-parens": "off",

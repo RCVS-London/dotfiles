@@ -29,7 +29,8 @@
     "plugins": [
         "jest",
         "react",
-        "react-native"
+        "react-native",
+        "simple-import-sort"
     ],
     "rules": {
         "array-element-newline": "off",
@@ -40,6 +41,7 @@
         "func-style": "warn",
         "function-paren-newline": "off",
         "implicit-arrow-linebreak": "off",
+        "import/order": "off",
         "indent": "off",
         "lines-around-comment": "off",
         "max-len": "off",
@@ -69,6 +71,8 @@
         "react/jsx-one-expression-per-line": "off",
         "react/no-unescaped-entities": "off",
         "react/prop-types": "off",
+        "simple-import-sort/sort": "error",
+        "sort-imports": "off",
         "space-before-function-paren": "off"
     },
     "settings": {

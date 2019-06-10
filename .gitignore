@@ -12,6 +12,9 @@ __pycache__/
 # React Native build metadata
 .expo/
 
+# Python import sorting config. Needed to autosort dotfiles
+.isort.cfg
+
 # Vender lockin editor config
 .vscode/
 

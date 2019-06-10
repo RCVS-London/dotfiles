@@ -3,9 +3,10 @@
         "browser": true,
         "es6": true,
         "jest/globals": true,
-        "node": true
+        "node": true,
+        "react-native/react-native": true
     },
-    "extends": ["eslint:all", "plugin:react/all", "plugin:jest/recommended"],
+    "extends": ["eslint:all", "plugin:jest/recommended", "plugin:react/all", "plugin:react-native/all"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -18,7 +19,7 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["jest", "react"],
+    "plugins": ["jest", "react", "react-native"],
     "rules": {
         "array-element-newline": "off",
         "arrow-parens": "off",

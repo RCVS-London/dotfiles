@@ -6,7 +6,14 @@
         "node": true,
         "react-native/react-native": true
     },
-    "extends": ["eslint:all", "plugin:jest/recommended", "plugin:react/all", "plugin:react-native/all"],
+    "extends": [
+        "eslint:all",
+        "plugin:jest/recommended",
+        "plugin:react/all",
+        "plugin:react-native/all",
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -19,7 +26,11 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["jest", "react", "react-native"],
+    "plugins": [
+        "jest",
+        "react",
+        "react-native"
+    ],
     "rules": {
         "array-element-newline": "off",
         "arrow-parens": "off",
@@ -43,8 +54,14 @@
         "object-property-newline": "off",
         "one-var": "off",
         "padded-blocks": "off",
-        "quote-props": ["error", "consistent-as-needed"],
-        "react/destructuring-assignment": ["error", "never"],
+        "quote-props": [
+            "error",
+            "consistent-as-needed"
+        ],
+        "react/destructuring-assignment": [
+            "error",
+            "never"
+        ],
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",
         "react/jsx-max-props-per-line": "off",

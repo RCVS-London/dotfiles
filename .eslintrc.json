@@ -32,7 +32,8 @@
         "jest",
         "react",
         "react-native",
-        "simple-import-sort"
+        "simple-import-sort",
+        "sort-keys-fix"
     ],
     "rules": {
         "array-element-newline": "off",
@@ -73,6 +74,7 @@
         "react/prop-types": "off",
         "simple-import-sort/sort": "error",
         "sort-imports": "off",
+        "sort-keys-fix/sort-keys-fix": "error",
         "space-before-function-paren": "off"
     },
     "settings": {

@@ -8,12 +8,12 @@
     },
     "extends": [
         "eslint:all",
-        "plugin:jest/recommended",
-        "plugin:react/all",
-        "plugin:react-native/all",
         "plugin:import/errors",
-        "plugin:unicorn/recommended",
         "plugin:import/warnings",
+        "plugin:jest/recommended",
+        "plugin:react-native/all",
+        "plugin:react/all",
+        "plugin:unicorn/recommended",
         "prettier",
         "prettier/react",
         "plugin:prettier/recommended"

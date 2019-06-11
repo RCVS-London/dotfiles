@@ -15,7 +15,8 @@
         "plugin:unicorn/recommended",
         "plugin:import/warnings",
         "prettier",
-        "prettier/react"
+        "prettier/react",
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",

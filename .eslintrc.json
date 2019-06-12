@@ -8,6 +8,7 @@
     },
     "extends": [
         "eslint:all",
+        "plugin:@typescript-eslint/recommended",
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:jest/recommended",
@@ -15,6 +16,7 @@
         "plugin:react/all",
         "plugin:unicorn/recommended",
         "prettier",
+        "prettier/@typescript-eslint",
         "prettier/react",
         "plugin:prettier/recommended"
     ],
@@ -22,12 +24,13 @@
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
         "ecmaVersion": 2018,
+        "project": "./tsconfig.json",
         "sourceType": "module"
     },
     "plugins": [
@@ -38,9 +41,9 @@
         "sort-keys-fix"
     ],
     "rules": {
+        "@typescript-eslint/camelcase": "warn",
         "array-element-newline": "off",
         "arrow-parens": "off",
-        "camelcase": "warn",
         "comma-dangle": "off",
         "dot-location": "off",
         "func-style": "warn",
@@ -55,7 +58,6 @@
         "no-ternary": "off",
         "no-undef": "warn",
         "no-underscore-dangle": "warn",
-        "no-unused-vars": "warn",
         "object-property-newline": "off",
         "one-var": "off",
         "padded-blocks": "off",

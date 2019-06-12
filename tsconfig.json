@@ -12,6 +12,7 @@
         "moduleResolution": "node",
         "noEmit": true,
         "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
         "strict": true,
         "target": "esnext"
     },

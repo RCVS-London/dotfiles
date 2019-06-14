@@ -47,7 +47,7 @@
         "arrow-parens": "off",
         "comma-dangle": "off",
         "dot-location": "off",
-        "func-style": "warn",
+        "func-style": "off",
         "function-paren-newline": "off",
         "implicit-arrow-linebreak": "off",
         "import/order": "off",

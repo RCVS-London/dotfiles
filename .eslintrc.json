@@ -8,6 +8,7 @@
     },
     "extends": [
         "eslint:all",
+        "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/errors",
         "plugin:import/typescript",
@@ -43,6 +44,7 @@
     ],
     "rules": {
         "@typescript-eslint/camelcase": "warn",
+        "@typescript-eslint/member-ordering": "error",
         "array-element-newline": "off",
         "arrow-parens": "off",
         "comma-dangle": "off",
@@ -77,10 +79,7 @@
             "error",
             "consistent-as-needed"
         ],
-        "react/destructuring-assignment": [
-            "error",
-            "never"
-        ],
+        "react/destructuring-assignment": "off",
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",
         "react/jsx-max-props-per-line": "off",

@@ -43,13 +43,12 @@
         "sort-keys-fix"
     ],
     "rules": {
+        "@typescript-eslint/ban-ts-ignore": "warn",
         "@typescript-eslint/camelcase": "warn",
         "@typescript-eslint/explicit-member-accessibility": [
             "error",
             {
-                "overrides": {
-                    "constructors": "no-public"
-                }
+                "accessibility": "no-public"
             }
         ],
         "@typescript-eslint/indent": "off",
@@ -71,6 +70,7 @@
         "dot-location": "off",
         "func-style": "off",
         "function-paren-newline": "off",
+        "global-require": "off",
         "implicit-arrow-linebreak": "off",
         "import/order": "off",
         "max-len": "off",

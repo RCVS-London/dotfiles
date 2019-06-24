@@ -9,8 +9,8 @@
     "extends": [
         "eslint:all",
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
         "plugin:import/errors",
+        "plugin:@typescript-eslint/all",
         "plugin:import/typescript",
         "plugin:import/warnings",
         "plugin:jest/recommended",
@@ -44,21 +44,17 @@
     ],
     "rules": {
         "@typescript-eslint/camelcase": "warn",
+        "@typescript-eslint/explicit-member-accessibility": [
+            "error",
+            {
+                "overrides": {
+                    "constructors": "no-public"
+                }
+            }
+        ],
+        "@typescript-eslint/indent": "off",
         "@typescript-eslint/member-ordering": "error",
-        "array-element-newline": "off",
-        "arrow-parens": "off",
-        "comma-dangle": "off",
-        "dot-location": "off",
-        "func-style": "off",
-        "function-paren-newline": "off",
-        "implicit-arrow-linebreak": "off",
-        "import/order": "off",
-        "indent": "off",
-        "max-len": "off",
-        "multiline-ternary": "off",
-        "no-class-assign": "off",
-        "no-extra-parens": "off",
-        "no-magic-numbers": [
+        "@typescript-eslint/no-magic-numbers": [
             "error",
             {
                 "ignore": [
@@ -69,6 +65,18 @@
                 ]
             }
         ],
+        "array-element-newline": "off",
+        "arrow-parens": "off",
+        "comma-dangle": "off",
+        "dot-location": "off",
+        "func-style": "off",
+        "function-paren-newline": "off",
+        "implicit-arrow-linebreak": "off",
+        "import/order": "off",
+        "max-len": "off",
+        "multiline-ternary": "off",
+        "no-class-assign": "off",
+        "no-extra-parens": "off",
         "no-ternary": "off",
         "no-undef": "warn",
         "no-underscore-dangle": "warn",

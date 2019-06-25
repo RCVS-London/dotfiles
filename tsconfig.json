@@ -10,8 +10,7 @@
         "noFallthroughCasesInSwitch": true,
         "skipLibCheck": true,
         "strict": true,
-        "target": "esnext",
-        "noImplicitThis": false
+        "target": "esnext"
     },
     "exclude": [
         "node_modules"

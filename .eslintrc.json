@@ -74,6 +74,10 @@
         "implicit-arrow-linebreak": "off",
         "import/order": "off",
         "max-len": "off",
+        "multiline-comment-style": [
+            "error",
+            "separate-lines"
+        ],
         "multiline-ternary": "off",
         "no-class-assign": "off",
         "no-extra-parens": "off",

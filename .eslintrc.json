@@ -83,6 +83,7 @@
         "no-extra-parens": "off",
         "no-ternary": "off",
         "no-undef": "warn",
+        "no-undefined": "off",
         "no-underscore-dangle": "off",
         "object-property-newline": "off",
         "one-var": "off",

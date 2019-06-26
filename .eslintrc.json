@@ -66,6 +66,14 @@
         ],
         "array-element-newline": "off",
         "arrow-parens": "off",
+        "class-methods-use-this": [
+            "warn",
+            {
+                "exceptMethods": [
+                    "render"
+                ]
+            }
+        ],
         "comma-dangle": "off",
         "dot-location": "off",
         "func-style": "off",

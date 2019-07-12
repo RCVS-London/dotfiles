@@ -83,6 +83,8 @@
         "implicit-arrow-linebreak": "off",
         "import/order": "off",
         "max-len": "off",
+        "max-lines-per-function": "warn",
+        "max-statements": "warn",
         "multiline-comment-style": [
             "error",
             "separate-lines"
@@ -104,6 +106,7 @@
         "react/destructuring-assignment": "off",
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",
+        "react/jsx-max-depth": "warn",
         "react/jsx-max-props-per-line": "off",
         "react/jsx-no-literals": "off",
         "react/jsx-one-expression-per-line": "off",

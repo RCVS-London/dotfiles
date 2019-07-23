@@ -65,6 +65,7 @@
                 ]
             }
         ],
+        "@typescript-eslint/strict-boolean-expressions": "none",
         "array-element-newline": "off",
         "arrow-parens": "off",
         "class-methods-use-this": [

@@ -68,6 +68,7 @@
         "@typescript-eslint/strict-boolean-expressions": "none",
         "array-element-newline": "off",
         "arrow-parens": "off",
+        "capitalized-comments": "off",
         "class-methods-use-this": [
             "warn",
             {

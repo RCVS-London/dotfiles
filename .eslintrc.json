@@ -36,6 +36,7 @@
     },
     "plugins": [
         "jest",
+        "react-hooks",
         "react-native",
         "react",
         "simple-import-sort",
@@ -104,6 +105,8 @@
             "error",
             "consistent-as-needed"
         ],
+        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/rules-of-hooks": "error",
         "react/destructuring-assignment": "off",
         "react/forbid-component-props": "off",
         "react/jsx-filename-extension": "off",

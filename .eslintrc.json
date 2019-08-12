@@ -8,9 +8,8 @@
     },
     "extends": [
         "eslint:all",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:import/errors",
         "plugin:@typescript-eslint/all",
+        "plugin:import/errors",
         "plugin:import/typescript",
         "plugin:import/warnings",
         "plugin:jest/recommended",
@@ -18,9 +17,9 @@
         "plugin:react/all",
         "plugin:unicorn/recommended",
         "prettier",
+        "plugin:prettier/recommended",
         "prettier/@typescript-eslint",
-        "prettier/react",
-        "plugin:prettier/recommended"
+        "prettier/react"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -37,8 +36,8 @@
     },
     "plugins": [
         "jest",
-        "react",
         "react-native",
+        "react",
         "simple-import-sort",
         "sort-keys-fix"
     ],

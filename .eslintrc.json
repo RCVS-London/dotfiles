@@ -63,6 +63,7 @@
                 ]
             }
         ],
+        "@typescript-eslint/no-type-alias": "off",
         "@typescript-eslint/strict-boolean-expressions": "none",
         "array-element-newline": "off",
         "arrow-parens": "off",

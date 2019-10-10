@@ -3,7 +3,7 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "isolatedModules": true,
+        "isolatedModules": false,
         "jsx": "react-native",
         "moduleResolution": "node",
         "noEmit": true,

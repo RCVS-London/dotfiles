@@ -64,7 +64,7 @@
             }
         ],
         "@typescript-eslint/no-type-alias": "off",
-        "@typescript-eslint/strict-boolean-expressions": "none",
+        "@typescript-eslint/strict-boolean-expressions": "off",
         "array-element-newline": "off",
         "arrow-parens": "off",
         "capitalized-comments": "off",

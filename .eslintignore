@@ -1,4 +1,5 @@
 .expo-shared/
 .expo/
+coverage/
 dotfiles/
 node_modules/

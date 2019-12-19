@@ -125,6 +125,7 @@
         "sort-keys-fix/sort-keys-fix": "error",
         "space-before-function-paren": "off",
         "unicorn/filename-case": "off",
+        "unicorn/no-abusive-eslint-disable": "off",
         "unicorn/prevent-abbreviations": "off"
     },
     "settings": {

@@ -41,6 +41,7 @@
         "sort-keys-fix"
     ],
     "rules": {
+        "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/ban-ts-ignore": "warn",
         "@typescript-eslint/camelcase": "warn",
         "@typescript-eslint/explicit-member-accessibility": [
@@ -53,6 +54,12 @@
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/member-ordering": "error",
         "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/no-floating-promises": [
+            "error",
+            {
+                "ignoreVoid": true
+            }
+        ],
         "@typescript-eslint/no-magic-numbers": [
             "error",
             {
@@ -67,7 +74,14 @@
             }
         ],
         "@typescript-eslint/no-type-alias": "off",
+        "@typescript-eslint/no-unnecessary-condition": [
+            "error",
+            {
+                "ignoreRhs": true
+            }
+        ],
         "@typescript-eslint/no-unused-vars-experimental": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
         "@typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/typedef": "off",
         "array-element-newline": "off",
@@ -83,32 +97,41 @@
             }
         ],
         "comma-dangle": "off",
+        "complexity": "warn",
         "dot-location": "off",
         "eqeqeq": "warn",
         "func-style": "off",
         "function-paren-newline": "off",
         "global-require": "off",
+        "id-length": "warn",
         "implicit-arrow-linebreak": "off",
         "import/order": "off",
+        "init-declarations": "off",
         "max-len": "off",
+        "max-lines": "warn",
         "max-lines-per-function": "warn",
+        "max-params": "warn",
         "max-statements": "warn",
         "multiline-comment-style": [
             "error",
             "separate-lines"
         ],
         "multiline-ternary": "off",
+        "no-alert": "off",
         "no-class-assign": "off",
         "no-extra-parens": "off",
         "no-invalid-this": "off",
         "no-multi-str": "off",
+        "no-plusplus": "off",
         "no-ternary": "off",
         "no-undef": "warn",
         "no-undefined": "off",
         "no-underscore-dangle": "off",
+        "no-void": "off",
         "object-property-newline": "off",
         "one-var": "off",
         "padded-blocks": "off",
+        "prefer-destructuring": "warn",
         "quote-props": [
             "error",
             "consistent-as-needed"
@@ -118,16 +141,20 @@
             "as-needed"
         ],
         "react-hooks/rules-of-hooks": "error",
+        "react-native/no-raw-text": "off",
         "react/destructuring-assignment": "off",
         "react/forbid-component-props": "off",
+        "react/function-component-definition": "off",
         "react/jsx-filename-extension": "off",
         "react/jsx-max-depth": "warn",
         "react/jsx-max-props-per-line": "off",
         "react/jsx-no-literals": "off",
         "react/jsx-one-expression-per-line": "off",
+        "react/jsx-props-no-spreading": "warn",
         "react/no-set-state": "off",
         "react/no-unescaped-entities": "off",
         "react/prop-types": "off",
+        "react/require-optimization": "off",
         "react/sort-comp": "off",
         "simple-import-sort/sort": "error",
         "sort-imports": "off",

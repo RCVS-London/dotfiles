@@ -140,6 +140,7 @@
             "error",
             "as-needed"
         ],
+        "react-hooks/exhaustive-deps": "warn",
         "react-hooks/rules-of-hooks": "error",
         "react-native/no-raw-text": "off",
         "react/destructuring-assignment": "off",

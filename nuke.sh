@@ -8,5 +8,3 @@ watchman watch-del-all
 rm -rf $TMPDIR/react-*
 rm -rf node_modules/
 yarn
-open 'rndebugger://set-debugger-loc?host=localhost&port=19001'
-expo r -c

@@ -1,6 +1,5 @@
 {
     "bracketSpacing": false,
-    "endOfLine": "lf",
     "printWidth": 88,
     "proseWrap": "always",
     "tabWidth": 4,

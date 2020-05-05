@@ -169,6 +169,7 @@
         "space-before-function-paren": "off",
         "unicorn/filename-case": "off",
         "unicorn/no-abusive-eslint-disable": "off",
+        "unicorn/no-null": "warn",
         "unicorn/prevent-abbreviations": "off"
     },
     "settings": {

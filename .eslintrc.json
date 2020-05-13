@@ -156,6 +156,7 @@
         "react/jsx-filename-extension": "off",
         "react/jsx-max-depth": "warn",
         "react/jsx-max-props-per-line": "off",
+        "react/jsx-no-bind": "warn",
         "react/jsx-no-literals": "off",
         "react/jsx-one-expression-per-line": "off",
         "react/jsx-props-no-spreading": "warn",

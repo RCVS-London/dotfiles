@@ -172,6 +172,8 @@
         "unicorn/filename-case": "off",
         "unicorn/no-abusive-eslint-disable": "off",
         "unicorn/no-null": "warn",
+        "unicorn/no-reduce": "warn",
+        "unicorn/no-useless-undefined": "off",
         "unicorn/prevent-abbreviations": "off"
     },
     "settings": {

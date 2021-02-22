@@ -15,9 +15,7 @@
         "plugin:react/all",
         "plugin:unicorn/recommended",
         "prettier",
-        "plugin:prettier/recommended",
-        "prettier/@typescript-eslint",
-        "prettier/react"
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",

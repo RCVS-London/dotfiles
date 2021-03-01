@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-magic-numbers */
+
 module.exports = {
     extends: ["@commitlint/config-conventional"],
     rules: {

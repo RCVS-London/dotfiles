@@ -5,7 +5,6 @@ cd ~/Documents/GitHub/OneCPD/
 git pull
 yarn
 source $WORKON_HOME/OneCPD/bin/activate
-./setup_local.sh
 poetry install
 
 cd ~/Documents/GitHub/cpd-mobile/

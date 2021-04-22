@@ -14,4 +14,5 @@ yarn
 yarn global upgrade
 yarn global add expo-cli
 brew upgrade
+nvm install --lts
 echo "Sync complete. Have a great day!"

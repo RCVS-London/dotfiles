@@ -6,14 +6,15 @@ cd ~/Documents/GitHub/OneCPD/
 git pull
 yarn
 source $WORKON_HOME/OneCPD/bin/activate
+pip install --upgrade pip
 poetry install
 
 cd ~/Documents/GitHub/cpd-mobile/
 git pull
 yarn
 
-yarn global upgrade
 yarn global add expo-cli
+yarn global upgrade
 brew upgrade
 
 export NVM_DIR=~/.nvm

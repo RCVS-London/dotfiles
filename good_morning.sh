@@ -7,6 +7,7 @@ git pull
 yarn
 source $WORKON_HOME/OneCPD/bin/activate
 pip install --upgrade pip
+poetry self update
 poetry install
 
 cd ~/Documents/GitHub/cpd-mobile/

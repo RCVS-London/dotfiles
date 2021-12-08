@@ -48,8 +48,5 @@ pip-wheel-metadata
 # Type hinting
 .mypy_cache/
 
-# App security
-sqreen.ini
-
 # Files compiled by webpack
 js/

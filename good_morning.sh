@@ -5,6 +5,18 @@ echo "Syncing recent changes. One moment, please..."
 cd ~/Documents/GitHub/OneCPD/
 git pull
 yarn
+
+# Get correct python version
+. ~/Documents/GitHub/OneCPD/setup/ec2.config
+
+# Check if correct python version is already installed
+if ! pyenv version | grep -q $PYTHON_VERSION; then
+    # Install it if it is not
+    pyenv install $PYTHON_VERSION
+    pyenv global $PYTHON_VERSION
+    pip install pre-commit
+fi
+
 source $WORKON_HOME/OneCPD/bin/activate
 pip install --upgrade pip
 poetry self update

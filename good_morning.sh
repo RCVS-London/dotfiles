@@ -13,7 +13,7 @@ yarn
 if ! pyenv version | grep -q $PYTHON_VERSION; then
     # Install it if it is not
     pyenv install $PYTHON_VERSION
-    pyenv global $PYTHON_VERSION
+    pyenv local $PYTHON_VERSION
     pip install pre-commit
 fi
 

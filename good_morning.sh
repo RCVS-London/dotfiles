@@ -9,10 +9,12 @@ yarn
 # Get correct python version
 . ~/Documents/GitHub/OneCPD/setup/ec2.config
 
-# Check if correct python version is already installed
+# Check if using the correct python version
 if ! pyenv version | grep -q $PYTHON_VERSION; then
-    # Install it if it is not
-    pyenv install $PYTHON_VERSION
+    # Install it if it is not installed
+    if ! pyenv versions | grep -q $PYTHON_VERSION; then
+        pyenv install $PYTHON_VERSION
+    fi
     pyenv local $PYTHON_VERSION
     pip install pre-commit
 fi

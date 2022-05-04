@@ -148,6 +148,7 @@
         "react/destructuring-assignment": "off",
         "react/forbid-component-props": "off",
         "react/function-component-definition": "off",
+        "react/hook-use-state": "warn",
         "react/jsx-filename-extension": "off",
         "react/jsx-max-depth": "warn",
         "react/jsx-max-props-per-line": "off",
@@ -159,6 +160,7 @@
         "react/no-set-state": "off",
         "react/no-unescaped-entities": "off",
         "react/no-unused-prop-types": "off",
+        "react/no-unstable-nested-components": "warn",
         "react/prop-types": "off",
         "react/require-default-props": "off",
         "react/require-optimization": "off",
@@ -168,6 +170,7 @@
         "sort-imports": "off",
         "sort-keys-fix/sort-keys-fix": "error",
         "space-before-function-paren": "off",
+        "unicorn/consistent-destructuring": "warn",
         "unicorn/filename-case": "off",
         "unicorn/no-abusive-eslint-disable": "off",
         "unicorn/no-array-reduce": "warn",
@@ -177,7 +180,7 @@
     },
     "settings": {
         "react": {
-            "version": "16.9.0"
+            "version": "16.13.1"
         }
     }
 }

@@ -2,12 +2,12 @@
 
 echo "Syncing recent changes. One moment, please..."
 
-cd ~/Documents/GitHub/OneCPD/
+cd ~/code/OneCPD/
 git pull
 yarn
 
 # Get correct python version
-. ~/Documents/GitHub/OneCPD/setup/ec2.config
+. ~/code/OneCPD/setup/ec2.config
 
 # Check if using the correct python version
 if ! pyenv version | grep -q $PYTHON_VERSION; then
@@ -24,7 +24,7 @@ pip install --upgrade pip
 poetry self update
 poetry install
 
-cd ~/Documents/GitHub/cpd-mobile/
+cd ~/code/cpd-mobile/
 git pull
 yarn
 

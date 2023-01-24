@@ -16,3 +16,9 @@ projects using this repository.
 Submodule diffs do not appear in the parent repository by default, so you either need to
 `cd` into it to see and commit them or use some of the more advanced techniques from the
 [git documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+## Pre-commit
+
+After installing pre-commit itself (e.g: `poetry add pre-commit`) you need to install
+the hooks before making commits using `pre-commit install` and
+`pre-commit install --hook-type commit-msg`.

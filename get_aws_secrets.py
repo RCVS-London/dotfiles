@@ -2,10 +2,9 @@ import json
 
 import boto3
 from botocore.exceptions import ClientError
-from typing import Optional, Dict
 
 
-def get_secret(secret_name) -> Optional[Dict[str, str]]:
+def get_secret(secret_name) -> dict[str, str] | None:
     endpoint_url = "https://secretsmanager.eu-west-2.amazonaws.com"
     region_name = "eu-west-2"
 

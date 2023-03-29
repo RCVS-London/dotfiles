@@ -50,3 +50,6 @@ pip-wheel-metadata
 
 # Files compiled by webpack
 js/
+
+# Jest tests
+.cache/

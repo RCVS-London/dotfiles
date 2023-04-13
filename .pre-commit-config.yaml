@@ -5,7 +5,7 @@ repos:
       hooks:
           - id: beautysh
     - repo: https://github.com/psf/black
-      rev: 23.1.0
+      rev: 23.3.0
       hooks:
           - id: black
             language_version: python3.11
@@ -23,7 +23,7 @@ repos:
           - id: conventional-pre-commit
             args: [feat, fix, ci, test, style, refactor, docs] # optional: list of Conventional Commits types to allow e.g. [feat, fix, ci, chore, test]
     - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-      rev: v9.4.0
+      rev: v9.5.0
       hooks:
           - id: commitlint
             stages: [commit-msg]

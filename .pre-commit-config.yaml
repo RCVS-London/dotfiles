@@ -21,7 +21,7 @@ repos:
       rev: v2.1.1
       hooks:
           - id: conventional-pre-commit
-            args: [feat, fix, ci, test, style, refactor, docs] # optional: list of Conventional Commits types to allow e.g. [feat, fix, ci, chore, test]
+            args: [feat, fix, chore, ci, test, style, refactor, docs] # optional: list of Conventional Commits types to allow e.g. [feat, fix, ci, chore, test]
     - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
       rev: v9.5.0
       hooks:

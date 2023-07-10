@@ -3,3 +3,4 @@
 coverage/
 dotfiles/
 node_modules/
+dist/

@@ -71,9 +71,9 @@
                 "init-declarations": "off",
                 "max-len": "off",
                 "max-lines": "warn",
-                "max-lines-per-function": "warn",
+                "max-lines-per-function": "off",
                 "max-params": "warn",
-                "max-statements": "warn",
+                "max-statements": "off",
                 "multiline-comment-style": [
                     "error",
                     "separate-lines"
@@ -240,9 +240,9 @@
                 "init-declarations": "off",
                 "max-len": "off",
                 "max-lines": "warn",
-                "max-lines-per-function": "warn",
+                "max-lines-per-function": "off",
                 "max-params": "warn",
-                "max-statements": "warn",
+                "max-statements": "off",
                 "multiline-comment-style": [
                     "error",
                     "separate-lines"

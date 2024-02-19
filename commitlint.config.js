@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-magic-numbers, unicorn/prefer-module */
+/* eslint-disable no-magic-numbers, unicorn/prefer-module */
 
 module.exports = {
     extends: ["@commitlint/config-conventional"],
